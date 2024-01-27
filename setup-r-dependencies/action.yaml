@@ -16,7 +16,7 @@ inputs:
     description: 'Any extra Config/Needs fields which need to be included when installing dependencies'
   packages:
     description: 'Which package(s) to install.'
-    default: 'deps::., any::sessioninfo'
+    default: 'any::sessioninfo'
   pak-version:
     description: 'Which pak version to use. Possible values are "stable", "rc" and "devel".'
     default: 'stable'
